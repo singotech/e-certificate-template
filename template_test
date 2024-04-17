@@ -68,7 +68,7 @@
         <div style="display:flex">
 			<div>
 				<div class="div-wrapper">
-				    <img src="{{.SIGN_POS1}}" alt="sign1"  />
+				    <img src="{{.SIGN1}}" alt="sign1"  />
 				</div>
                 <p>{{.SIGN_NAME1}}</p>
                 <p>{{.SIGN_POS1}}</p>
@@ -76,7 +76,7 @@
 			<br>
 			<div>
 				<div class="div-wrapper">
-					<img src="{{.SIGN_POS2}}" alt="sign2" />
+					<img src="{{.SIGN2}}" alt="sign2" />
 				</div>
                 <p>{{.SIGN_NAME2}}</p>
                 <p>{{.SIGN_POS2}}</p>
