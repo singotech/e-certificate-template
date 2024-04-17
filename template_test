@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+    .certificate {
+        flex-grow: 1;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    .sidebar {
+        width: 25%;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+    .menu {
+        list-style-type: none;
+        padding: 0;
+    }
+    .menu li {
+        margin-bottom: 10px;
+    }
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .div-wrapper {
+        position: relative;
+        height: 200px;
+        width: 200px;
+    }
+
+    .div-wrapper img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    img {
+        height: auto;
+        width: 200px;
+        height: 200px;
+  object-fit: contain;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="certificate">
+        <h1>{{.COMPANY_NAME}}</h1>
+        <h4>{{.CERTIFICATE ID}}</h4>
+        <p>This is to certify that {{.SIGN_NAME1}} has successfully completed {{.SIGN_POS1}} on {{.YEAR}}.</p>
+        <!-- Certificate content goes here -->
+        <p>{{.NAME}}</p>
+        <div style="display:flex">
+			<div>
+				<div class="div-wrapper">
+				    <img src="{{.SIGN_POS1}}" alt="sign1"  />
+				</div>
+                <p>{{.SIGN_NAME1}}</p>
+                <p>{{.SIGN_POS1}}</p>
+			</div>
+			<br>
+			<div>
+				<div class="div-wrapper">
+					<img src="{{.SIGN_POS2}}" alt="sign2" />
+				</div>
+                <p>{{.SIGN_NAME2}}</p>
+                <p>{{.SIGN_POS2}}</p>
+			</div>
+		</div>
+    </div>
+   
+</div>
+
+</body>
