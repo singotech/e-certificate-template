@@ -2504,7 +2504,7 @@
 									style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
 									<div id="g5KqopWAt7B4FwEW"
 										style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-										<img src="images/fa13a91cf5ccce79aec678ef3a7d0d4c.svg" alt="Letter W Logo"
+										<img src="{{.COMPANY_LOGO}}" alt="company logo"
 											loading="lazy"
 											style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
 									</div>
@@ -2616,7 +2616,7 @@
 									style="transform:scale(1, 1);width:100%;height:100%;overflow:hidden;position:relative;">
 									<div id="tGjzfe9Z43dDSfTx"
 										style="width: calc(100% * max(1, var(--scale-fill, 1))); height: calc(100% / min(1, var(--scale-fill, 1))); position: absolute; top: 50%; left: 50%; opacity: 1; animation: auto ease 0s 1 normal none running none;">
-										<img src="images/bac14c59e69e20946a6f395aebb59bce.png" alt="Gold Medal Badge"
+										<img src="{{.CERT_QR}}" alt="cert qr"
 											loading="lazy"
 											style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);">
 									</div>
