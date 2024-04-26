@@ -2134,7 +2134,7 @@ textarea.w-input, textarea.w-select {
 
 .container {
   object-fit: fill;
-  background-image: url("../img/cert-1.webp");
+  background-image: url("https://raw.githubusercontent.com/singotech/e-certificate-template/main/assets/img/cert-1.webp");
   background-position: 50%;
   background-repeat: repeat;
   background-size: cover;
