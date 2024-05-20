@@ -6,8 +6,7 @@ README="README.md"
 # Define the header and initial content for README.md
 HEADER="# e-certificate-template
 
-## List of template
-"
+## List of template"
 
 # Write the header to the README.md file
 echo "$HEADER" > $README
