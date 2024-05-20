@@ -1,5 +1,6 @@
 # e-certificate-template
 
 ## List of template
-- [singo-template-webflow.html](singo-template-webflow.html)
-- [singo-template-canva.html](singo-template-canva.html)
+
+- [cert-1.html](cert-1.html)
+- [cert-2.html](cert-2.html)
